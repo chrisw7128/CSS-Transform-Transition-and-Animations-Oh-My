@@ -1,1 +1,15 @@
+@keyframes chris {
+    from {background-color: ghostwhite;}
+    to {background-color: cornflowerblue;}
+}
 
+@keyframes chris2 {
+    from {color:black;}
+    to {color:white;}
+}
+
+button:hover {
+    animation-name: chris;
+    animation-name: chris2;
+    transition: 2s;
+}
