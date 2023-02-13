@@ -1,15 +1,12 @@
 @keyframes chris {
-    from {background-color: ghostwhite;}
-    to {background-color: cornflowerblue;}
-}
-
-@keyframes chris2 {
-    from {color:black;}
-    to {color:white;}
+    from {background-color: ghostwhite;
+    color: black;}
+    to {background-color: cornflowerblue;
+    color: white;}
 }
 
 button:hover {
     animation-name: chris;
-    animation-name: chris2;
-    transition: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
